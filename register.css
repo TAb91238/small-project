@@ -1,0 +1,138 @@
+*{
+	margin: 0px;
+	/* border: 0px; */
+	/* badding:0px */
+	
+}
+body{
+	background-image: url("../img/news-bg.png");
+}
+.title[id="01"]{
+	color: chartreuse;
+	text-align:center;
+}
+/* 登录窗口 */
+.register[id="31"]{
+	position: relative;
+	float: right;
+	line-height: 20px;
+	color: aqua;
+}
+	
+.title_1[id="02"]{
+	position: relative;
+	background-color: darkblue;
+	list-style-type: none;
+	/* 将无序列表之前的图标取消 */
+	top:0px;}
+
+.tablink{
+	margin-top: 10px;
+	text-decoration: none;
+	/* 去掉下划线 */
+	font-size: 16px;
+	font-family: fantasy;
+	color:white;
+	float: left;
+	/*向左浮动 */
+	margin-left: 35px;
+	/*设置间隔为35px */
+	}
+	         
+a:hover{
+	color: blue; 
+	         }
+.tabline{
+	
+	left: 0px;
+	height: 40px;
+	width: 100%;
+}
+	
+
+.serch_tab[id="04"]{
+	position: relative;
+	background-image: url("../img/2.png");
+	
+	background-repeat: repeat-x;
+	
+	height: 180px;
+	width:100%;
+	
+	}
+	
+	
+
+.title_2{
+	position: relative;
+	height: 38px;
+	background-color: darkblue;	
+	
+}
+.title_5{
+	text-decoration: none;
+	/* 去掉下划线 */
+	font-size: 13px;
+	color:white;
+	float: right;
+	/*向右浮动 */
+	margin-right: 20px;
+	margin-top: 10px;
+	
+	
+	/*设置间隔为20px */}
+.title_4{
+	position: relative;
+	list-style-type: none;
+}
+.title_3{
+	position: relative;
+	float:left;
+	margin-top: 10px;
+	margin-left: 30px;
+	
+	font-size: 16px;
+	color:white;
+	
+	
+}
+.input_1{
+	/* 校标 */
+	position: relative;
+	top: 40px;
+	left: 20px;
+	
+}
+.input_2{
+	/* 搜索框 */
+	position: relative;
+	list-style-type: none;
+	float: right;
+	right: 20px;
+	top:30px;
+	
+}
+
+.tab_1{
+	background-color: white;
+	column-rule-style: none;
+	
+	border-spacing: 20px;   
+	border-color:whitesmoke
+	
+	
+}
+/* 校区导航 */
+.tab{
+	position: relative;
+	float: right;
+	right: 0px;
+	top: 0px;
+	
+}
+.hyperlink{
+	text-decoration: none;
+	/* 去掉下划线 */
+	color: black;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
